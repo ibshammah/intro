@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animated</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- site copiado do https://codepen.io/mohaiman/pen/MQqMyo -->
+        <div class="context">
+            <img class="logo" src="logo.png" alt="logo">
+            <h1 id="text">Shammah</h1>
+        </div>
+        <div id="your-element-selector" class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <script type="text/jscript" src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            VANTA.BIRDS({
+            el: "#your-element-selector",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            colorMode: "variance",
+            birdSize: 1.50,
+            speedLimit: 6.00,
+            separation: 100.00,
+            alignment: 52.00,
+            quantity: 3.00,
+            backgroundAlpha: 0.0
+            })
+        </script>
+    </body>
+</html>
