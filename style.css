@@ -10,9 +10,8 @@ body {
 }
 
 .logo{
-    width: 500px;
+    width: 50%;
     min-width: 200px;
-    max-width: 400px;
 }
 
 .context {
